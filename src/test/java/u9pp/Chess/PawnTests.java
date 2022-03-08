@@ -39,8 +39,8 @@ public class PawnTests {
     @Test
     public void Pawn_canMoveOneSpaceForward_returnsTrue(){
         assertAll(
-            () -> assertTrue(board[0][0].canMoveTo(1, 0), "white pawns must be able to move forward 1 square"), 
-            () -> assertTrue(board[7][0].canMoveTo(6, 0), "black pawns must be able to move forward 1 square") 
+            () -> assertTrue(board[0][0].canMoveTo(1, 0), "black pawns must be able to move forward 1 square"), 
+            () -> assertTrue(board[7][0].canMoveTo(6, 0), "white pawns must be able to move forward 1 square") 
         );
     }
 
